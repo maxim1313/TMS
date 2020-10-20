@@ -8,7 +8,7 @@ workflows:
     jobs:
       - build-and-test:
           context:
-            - docker-hub-creds
+            - docker-hub-creds 
 
 jobs:
   build-and-test:
